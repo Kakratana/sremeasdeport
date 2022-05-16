@@ -6,11 +6,11 @@
 <body>
     <style>
         .form {
-          background-color: rgb(18, 138, 28);
+
           margin: auto;
-          width: 60%;
-          border: 5px solid #FFFF00;
-          padding: 10px;
+          width: 90%;
+
+          padding: 50px;
         }
         
 
@@ -20,7 +20,7 @@
         function check(){
             const userName = document.getElementById("uname").value;
             const passWord = document.getElementById("psw").value;
-            if (userName == "sremeas" && passWord == "123"){
+            if (userName == "sm" && passWord == "4027"){
                 document.getElementById("map").style.visibility = "visible";
             } else document.getElementById("error").style.visibility = "visible";
         }
@@ -38,7 +38,7 @@
         </center>
     </div>
 
-    <div id="error" style="visibility: hidden;"> <center>incorrect password!</center></div>
+    <div id="error" style="visibility: hidden;"> <br><center>Incorrect Password!</center></div>
 
     <div id="map" style="visibility: hidden;">
     <iframe src="https://www.google.com/maps/d/embed?mid=1deAfNBv6iwEFqzg-JgtpuqlYeslQXRwI&ehbc=2E312F" 
