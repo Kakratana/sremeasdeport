@@ -12,6 +12,9 @@
 
           padding: 50px;
         }
+        .container{
+            width: device-width;
+        }
         
 
     </style>
@@ -25,7 +28,7 @@
             } else document.getElementById("error").style.visibility = "visible";
         }
     </script>
-
+    <div container></div>
     <div class="form">
         <center>
         <label for="uname"><b>SREMEAS'S DEPOTS</b></label>
@@ -36,6 +39,7 @@
         <br><br>
         <button onclick="check()">Login</button>
         </center>
+    </div>
     </div>
 
     <div id="error" style="visibility: hidden;"> <br><center>Incorrect Password!</center></div>
